@@ -51,8 +51,6 @@ fCalcularIMC_orig = () => {
         pessoa.imc = parseFloat(pessoa.peso/(pessoa.altura*pessoa.altura));  //.toFixed(2)
         dados[i] = pessoa;
     }
-    
-    //return imc.toFixed(2);
 }
 
 fCalcularIMC = (pess) => {
