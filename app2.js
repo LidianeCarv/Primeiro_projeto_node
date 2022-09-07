@@ -62,7 +62,7 @@ fCalcularIMC = (pess) => {
 }
 
 fClassificacao = (imc) =>{
-    const m1 = 18.5; m2 = 24.9; //imcClassif = '';
+    const m1 = 18.5; m2 = 24.9; 
 
     if (imc < m1){
              return  "abaixo do esperado";
