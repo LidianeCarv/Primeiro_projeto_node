@@ -65,7 +65,6 @@ fClassificacao = (imc) =>{
     const m1 = 18.5; m2 = 24.9; //imcClassif = '';
 
     if (imc < m1){
-            //imcClassif = "abaixo do esperado"
              return  "abaixo do esperado";
     }else if (imc >= m1 && imc <= m2){
             return  "normal";
